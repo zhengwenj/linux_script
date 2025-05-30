@@ -29,15 +29,26 @@ sudo ./nginx_install.sh
 #### Gitee下载（国内用户）：
 
 ```bash
-wget -O nginx_install.sh https://gitee.com/zhengwenj/linux_script/raw/master/nginx_install/nginx_install.sh
+wget -O nginx_install.sh https://gitee.com/zhengwenj/linux_script/raw/main/nginx_install/nginx_install.sh
 chmod +x nginx_install.sh
 sudo ./nginx_install.sh
 ```
 
 ### 方法2：克隆仓库后执行
 
+#### GitHub下载（国际用户）：
+
 ```bash
 git clone https://github.com/zhengwenj/linux_script.git
+cd linux_script/nginx_install
+chmod +x nginx_install.sh
+sudo ./nginx_install.sh
+```
+
+#### Gitee下载（国内用户）：
+
+```bash
+git clone https://gitee.com/zhengwenj/linux_script.git
 cd linux_script/nginx_install
 chmod +x nginx_install.sh
 sudo ./nginx_install.sh

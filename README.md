@@ -24,8 +24,18 @@
 ### 通用使用步骤
 
 1. 克隆仓库到本地：
+
+   #### 从GitHub克隆（国际用户）：
+
    ```bash
    git clone https://github.com/zhengwenj/linux_script.git
+   cd linux_script
+   ```
+
+   #### 从Gitee克隆（国内用户）：
+
+   ```bash
+   git clone https://gitee.com/zhengwenj/linux_script.git
    cd linux_script
    ```
 

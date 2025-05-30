@@ -18,8 +18,18 @@
 
 ### 方法1：直接下载并执行
 
+#### GitHub下载（国际用户）：
+
 ```bash
 wget -O nginx_install.sh https://raw.githubusercontent.com/zhengwenj/linux_script/main/nginx_install/nginx_install.sh
+chmod +x nginx_install.sh
+sudo ./nginx_install.sh
+```
+
+#### Gitee下载（国内用户）：
+
+```bash
+wget -O nginx_install.sh https://gitee.com/zhengwenj/linux_script/raw/master/nginx_install/nginx_install.sh
 chmod +x nginx_install.sh
 sudo ./nginx_install.sh
 ```

@@ -922,7 +922,9 @@ install_nginx() {
     
     # 下载Nginx
     show_message "正在下载 Nginx..." "Downloading Nginx..."
-    wget -q --show-progress "https://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz"
+    DOWNLOAD_URL="https://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz"
+    show_message "下载路径: ${DOWNLOAD_URL}" "Download URL: ${DOWNLOAD_URL}"
+    wget -q "${DOWNLOAD_URL}"
     
     if [ $? -ne 0 ]; then
         show_error "下载 Nginx 失败，请检查版本号或网络连接" "Failed to download Nginx. Please check version number or network connection"
